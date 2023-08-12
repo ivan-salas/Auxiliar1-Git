@@ -1,7 +1,7 @@
 class Tarea:
     def __init__(self, nombre):
         self.nombre = nombre
-        self.listo = False
+        self.listo = True
 
     def obtenerNombre(self):
         return self.nombre
